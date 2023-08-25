@@ -13,7 +13,7 @@ steps:
     displayName: 'Install Node.js'
 
   - script: |
-      npm ci
+      npm ci --no-strict
       npm run build
     displayName: 'Install dependencies and build'
 
