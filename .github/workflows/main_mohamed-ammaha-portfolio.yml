@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'mohamed-ammaha-portfolio'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_33E9411494B44DC0B4CA10C9636EDCFE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9EE01FEF234E4B31BFEDB18EAC34F75A }}
           package: .
