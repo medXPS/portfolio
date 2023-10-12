@@ -1,15 +1,23 @@
-ROM node:12.16.3-alpine as build
+# Use an official Node.js runtime as the base image
+FROM node:14
 
+# Set the working directory in the container
 WORKDIR /app
 
-COPY . ./
+# Copy package.json and package-lock.json to the container
+COPY package*.json ./
 
-# ---
-FROM fholzer/nginx-brotli:v1.12.2
+# Install Node.js dependencies
+RUN npm install
 
-WORKDIR /etc/nginx
-ADD nginx.conf /etc/nginx/nginx.conf
+# Copy the rest of the application code to the container
+COPY . .
 
-COPY --from=build /app/build /usr/share/nginx/html
-EXPOSE 8080
-CMD ["nginx", "-g", "daemon off;"]
+# Build your React app (modify this if you're using yarn)
+RUN npm run build
+
+# Expose the port your app will run on (typically 3000 for React)
+EXPOSE 3000
+
+# Start the React app
+CMD ["npm", "start"]
