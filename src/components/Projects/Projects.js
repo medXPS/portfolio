@@ -8,7 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import school from "../../Assets/Projects/java_fx_project.png";
 import sihaty from "../../Assets/Projects/sihaty.png";
 import jabak_lah from "../../Assets/Projects/jabak_lah.jpg";
-import suicide from "../../Assets/Projects/suicide.png";
+import pipeline1 from "../../Assets/Projects/pipeline1.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -50,6 +50,17 @@ function Projects() {
               title="Online Bill Payment and Product Delivery application "
               description="An Online Bill Payment and Product Delivery system is developed using Angular for the frontend, Spring Boot for the backend, and deployed in Google Kubernetes Engine (GKE). The project also includes efficient management of agents and clients."
               ghLink="https://github.com/E-BANKING-app-multiplatformes/jabak_lah_backend"
+            
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pipeline1}
+              isBlog={false}
+              title="A GitOps Pipeline with IaC and Diverse Technologies"
+              description="
+              Constructed a concise GitOps pipeline employing Infrastructure as Code (IaC) to deploy applications locally for testing. Integrated diverse technologies for a streamlined deployment process."
+              ghLink="https://github.com/medXPS/GitOps-Local-Project.git"
             
             />
           </Col>
