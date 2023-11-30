@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.75a327b6.css",
+    "main.js": "/static/js/main.366b691b.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/sihaty.png": "/static/media/sihaty.53e4016b292e71df9d80.png",
+    "static/media/Cv_mohamed_AMMAHA_v2 .pdf": "/static/media/Cv_mohamed_AMMAHA_v2 .3468024c5f977ec131c1.pdf",
+    "static/media/pipeline1.png": "/static/media/pipeline1.8beb751e2e5f2ad90ae2.png",
+    "static/media/java_fx_project.png": "/static/media/java_fx_project.e47d59de44e812f46e1b.png",
+    "static/media/logo.png": "/static/media/logo.c0dbda2f5c97849da675.png",
+    "static/media/about.png": "/static/media/about.c4808125901c94be603e.png",
+    "static/media/jabak_lah.jpg": "/static/media/jabak_lah.7df5535d91ad9d3db6c0.jpg",
+    "static/media/home-main.png": "/static/media/home-main.93a1625341117428df74.png",
+    "static/media/avatar.svg": "/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/index.html",
+    "main.75a327b6.css.map": "/static/css/main.75a327b6.css.map",
+    "main.366b691b.js.map": "/static/js/main.366b691b.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75a327b6.css",
+    "static/js/main.366b691b.js"
+  ]
+}

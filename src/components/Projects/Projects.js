@@ -2,14 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
 import school from "../../Assets/Projects/java_fx_project.png";
 import sihaty from "../../Assets/Projects/sihaty.png";
 import jabak_lah from "../../Assets/Projects/jabak_lah.jpg";
 import pipeline1 from "../../Assets/Projects/pipeline1.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
 
 function Projects() {
   return (
